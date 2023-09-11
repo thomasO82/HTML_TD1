@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Exercice 3</title>
+	</head>
+	<body>
+		<header>
+			<h1>Formulaire type</h1>
+		</header>
+		<main>
+			<form action="" method="get">
+				<section>
+					<h2>Coordonnées</h2>
+					<div>
+						<label for="name">
+							<b>nom</b>
+						</label>
+						<br>
+						<input id="name" type="text">
+					</div>
+					<br>
+					<div>
+						<label for="firstname">
+							<b>prénom</b>
+						</label>
+						<br>
+						<input id="firstname" type="text">
+					</div>
+					<br>
+					<div>
+						<label for="documentation">
+							<b>Je désire recevoir une documentation</b>
+						</label>
+						<input id="documentation" type="checkbox">
+					</div>
+					<br>
+					<div>
+						<label for="country">
+							<b>Pays</b>
+						</label>
+						<select id="country">
+							<option value="suisse" selected>CH: Suisse</option>
+							<option value="france">France</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<label for="gendre">
+							<b>sexe</b>
+						</label>
+						<span id='gendre'>
+							<input id="male" type="radio" name="gendre" value="male">
+							<label for="male">garcon</label>
+							<input id="female" type="radio" name="gendre" value="female">
+							<label for="female">fille</label>
+						</span>
+					</div>
+				</section>
+				<br>
+				<section>
+					<h2>Domaine d'activité</h2>
+					<div>
+						<p>Vous ne pouvez en choisir plus d'un...</p>
+						<input id="pedagogie" type="checkbox" value="pedagogie">
+						<label for="pedagogie">pedagogie</label>
+						<input id="psychologie" type="checkbox" value="psychologie">
+						<label for="psychologie">psychologie</label>
+						<input id="other" type="checkbox" value="autre">
+						<label for="other">autre</label>
+					</div>
+					<br>
+					<div>
+						<label for="comment">
+							<b>Commentaires</b>
+						</label>
+						<br>
+						<p>Si vous le désirez vous pouvez decrire vos activité ou vos projets</p>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+					</div>
+				</section>
+				<br>
+				<div>
+						<input type="reset" value="Effacer les données">
+						<input type="submit" value="Enregistrer les données">
+				</div>
+			</form>
+		</main>
+	</body>
+</html>
